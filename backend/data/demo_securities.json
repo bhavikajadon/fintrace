@@ -1,0 +1,122 @@
+[
+  {
+    "id": "s1",
+    "symbol": "RELIANCE",
+    "name": "Reliance Industries Ltd",
+    "price": 1479.64,
+    "sector": "Energy",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s2",
+    "symbol": "TCS",
+    "name": "Tata Consultancy Services Ltd",
+    "price": 3720.2,
+    "sector": "IT Services",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s3",
+    "symbol": "INFY",
+    "name": "Infosys Ltd",
+    "price": 1728.9,
+    "sector": "IT Services",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s4",
+    "symbol": "HDFCBANK",
+    "name": "HDFC Bank Ltd",
+    "price": 1664.2,
+    "sector": "Banking",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s5",
+    "symbol": "ICICIBANK",
+    "name": "ICICI Bank Ltd",
+    "price": 1298.3,
+    "sector": "Banking",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s6",
+    "symbol": "SBIN",
+    "name": "State Bank of India",
+    "price": 834.1,
+    "sector": "Banking",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s7",
+    "symbol": "ITC",
+    "name": "ITC Ltd",
+    "price": 512.4,
+    "sector": "Consumer",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s8",
+    "symbol": "BHARTIARTL",
+    "name": "Bharti Airtel Ltd",
+    "price": 1918.7,
+    "sector": "Telecom",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s9",
+    "symbol": "LT",
+    "name": "Larsen & Toubro Ltd",
+    "price": 3832.1,
+    "sector": "Industrials",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s10",
+    "symbol": "AXISBANK",
+    "name": "Axis Bank Ltd",
+    "price": 1187.5,
+    "sector": "Banking",
+    "assetType": "EQUITY",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s11",
+    "symbol": "NIFTY50",
+    "name": "NIFTY 50",
+    "price": 24850,
+    "sector": "Benchmark",
+    "assetType": "INDEX",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  },
+  {
+    "id": "s12",
+    "symbol": "NIFTYBANK",
+    "name": "NIFTY BANK",
+    "price": 54820,
+    "sector": "Benchmark",
+    "assetType": "INDEX",
+    "source": "FINTRACE_SYNTHETIC",
+    "status": "DEMO"
+  }
+]
