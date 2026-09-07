@@ -276,9 +276,17 @@ app.get("/api/alerts", (_req, res) => {
 
 app.post("/api/alerts", (req, res) => {
   try {
-    const security = readState().securities.find((item) => item.id === String(req.body.securityId));
+    const state = readState();
+    const security = state.securities.find(
+      (item) => item.id === String(req.body.securityId)
+    );
+
+    if (!security) {
+      return res.status(400).json({ error: "Security not found" });
+    }
+
     const a = addAlert({
-      symbol: security?.symbol ?? String(req.body.symbol),
+      symbol: security.symbol,
       metric: req.body.metric,
       operator: req.body.operator,
       threshold: Number(req.body.threshold),
@@ -308,4 +316,5 @@ app.use((err: any, _req: any, res: any, _next: any) => {
   console.error(err);
   res.status(500).json({ error: "Internal server error" });
 });
+
 
